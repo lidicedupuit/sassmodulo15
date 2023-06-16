@@ -1,0 +1,5 @@
+@use '../config/cores';
+
+.products {
+    background-color: cores.$corPrincipal;
+}
