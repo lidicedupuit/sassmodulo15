@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 .products {
@@ -32,6 +33,11 @@ header .container {
   padding: 16px 0;
 }
 
+h2 {
+  font-size: pixelParaEm(48px);
+  text-align: center;
+}
+
 li {
   list-style: none;
 }
@@ -59,7 +65,7 @@ button {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023 px) {
   .container {
     max-width: 80%;
   }
